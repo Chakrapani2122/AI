@@ -2,3 +2,5 @@ streamlit==1.24.1
 configparser>=5.0.0
 google-generativeai>=0.8.5
 protobuf>=3.20,<5
+streamlit-mic-recorder>=0.0.4
+whisper-openai>=2024.5.17
