@@ -47,6 +47,9 @@ if 'chat_session' not in st.session_state:
 # Add a key for the prompt input to allow clearing
 if 'prompt_key' not in st.session_state:
     st.session_state['prompt_key'] = 0
+# Initialize resume_text if not present
+if 'resume_text' not in st.session_state:
+    st.session_state['resume_text'] = ""
 
 # Resume input section (at the top)
 st.markdown('### Candidate Resume')
